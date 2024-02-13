@@ -6,3 +6,10 @@ console.log(cost);
 //Math.round function is used in javascript to round off a number.
 console.log(Math.round(3.5))
 console.log(Math.round(3.2))
+
+//converting temperature 
+
+//celcius to fahrenheit
+let celcius = prompt("Enter the temperature in celcius")
+let fahrenheit = celcius*(9/5)+32;
+console.log("The temperature in fahrenheit is ",fahrenheit);
