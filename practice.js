@@ -132,7 +132,16 @@ with the fullname length
 
 //revisiting js arrays
 
-let footballTeams = ["arsenal","real Madrid","chelsea","Kerala Blasters"]
-for(let i in footballTeams){
-    console.log(footballTeams[i]);
+// let footballTeams = ["arsenal","real Madrid","chelsea","Kerala Blasters"]
+// for(let i of footballTeams){
+//     console.log(i);
+// }
+
+//applying a 10 percent discount to items and printing it
+var items = [250,645,300,900,50];
+for(let i in items){
+    items[i] = items[i]-(0.1*items[i]);
 }
+console.log("Final price of items after applying discount is ");
+for(let i of items)
+console.log(i);
