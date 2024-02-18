@@ -125,7 +125,14 @@ on input. Start username with @ followed by their full name and ending
 with the fullname length
  */
 
-let fullName = prompt("Enter the full name");
-nameLength = fullName.length
-userName = `@${fullName}${nameLength}`
-console.log(userName)
+// let fullName = prompt("Enter the full name");
+// nameLength = fullName.length
+// userName = `@${fullName}${nameLength}`
+// console.log(userName)
+
+//revisiting js arrays
+
+let footballTeams = ["arsenal","real Madrid","chelsea","Kerala Blasters"]
+for(let i in footballTeams){
+    console.log(footballTeams[i]);
+}
