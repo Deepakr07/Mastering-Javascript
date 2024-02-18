@@ -81,10 +81,16 @@
 // }
 
 //number guessing game using while loop
-let num;
-do{
-    num = Number(prompt("guess the number"));
-    console.log("wrong number")
+// let num;
+// do{
+//     num = Number(prompt("guess the number"));
+//     console.log("wrong number")
 
-}while(num !=25)
-console.log("correct number");
+// }while(num !=25)
+// console.log("correct number");
+
+//strings in js
+
+let str1 = "Deepak r"
+len = str1.length;
+console.log(len)
