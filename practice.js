@@ -63,6 +63,6 @@ for(let i of name){
 
 //this prints each item in the array named arr
 let arr = ["ajay","depak"]
-for(let i of arr){
+for(let i of  arr){
     console.log(" ",i);
 }
