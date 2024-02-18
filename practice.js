@@ -34,3 +34,20 @@ if(number%5 === 0){
 else{
     console.log(number," is not a multiple of 5")
 }
+
+//Printing grades of students according to their marks recieved
+
+const marks = prompt("Enter the marks recieved");
+let grade = "";
+if(marks>=80 && marks<=100)
+grade = "A";
+else if(marks>=70)
+grade = "B";
+else if(marks>=60)
+grade = "C";
+else if(marks>=50)
+grade = "D";
+else 
+grade = "F"
+
+console.log("The grade is ",grade);
