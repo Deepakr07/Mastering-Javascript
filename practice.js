@@ -24,3 +24,13 @@ const profile = {
     posts : 10
 
 };
+
+// conditional statements in js
+//checking whether a number is a multiple of 5
+let number = prompt("Enter the number");
+if(number%5 === 0){
+    console.log(number," is a multiple of 5")
+}
+else{
+    console.log(number," is not a multiple of 5")
+}
