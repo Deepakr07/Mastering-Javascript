@@ -69,13 +69,22 @@
 
 //for in loop - for object manipulation
 
-const student = {
-    name:"Deepak",
-    department: "IT",
-    semester: "8",
-    cgpa:"9.84"
-}
+// const student = {
+//     name:"Deepak",
+//     department: "IT",
+//     semester: "8",
+//     cgpa:"9.84"
+// }
 
-for(let details in student){
-    console.log(details,"-> ",student[details]);
-}
+// for(let details in student){
+//     console.log(details,"-> ",student[details]);
+// }
+
+//number guessing game using while loop
+let num;
+do{
+    num = Number(prompt("guess the number"));
+    console.log("wrong number")
+
+}while(num !=25)
+console.log("correct number");
