@@ -101,3 +101,19 @@ const obj = {
     price : 50
 }
 console.log(`The cost of ${obj.item} is ${obj.price} rupees`);
+
+/*
+string methods
+toUpperCase()
+toLowerCase()
+trim()
+slice()
+concat()
+*/
+
+let name = "deepak"
+console.log((name.toUpperCase()).toLowerCase())
+let value = "deepak rajesh" 
+console.log(value)
+console.log(name.slice(0,5));
+console.log(name.concat(value));
