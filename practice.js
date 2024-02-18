@@ -55,14 +55,27 @@
 //for of loop - used to iterate over strings and arrays
 //this prints each character in the variable "name"
 
-let name = "Deepak";
+// let name = "Deepak";
 
-for(let i of name){
-    console.log(" ",i);
+// for(let i of name){
+//     console.log(" ",i);
+// }
+
+// //this prints each item in the array named arr
+// let arr = ["ajay","depak"]
+// for(let i of  arr){
+//     console.log(" ",i);
+// }
+
+//for in loop - for object manipulation
+
+const student = {
+    name:"Deepak",
+    department: "IT",
+    semester: "8",
+    cgpa:"9.84"
 }
 
-//this prints each item in the array named arr
-let arr = ["ajay","depak"]
-for(let i of  arr){
-    console.log(" ",i);
+for(let details in student){
+    console.log(details,"-> ",student[details]);
 }
