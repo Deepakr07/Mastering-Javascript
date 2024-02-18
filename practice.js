@@ -111,9 +111,21 @@ slice()
 concat()
 */
 
-let name = "deepak"
-console.log((name.toUpperCase()).toLowerCase())
-let value = "deepak rajesh" 
-console.log(value)
-console.log(name.slice(0,5));
-console.log(name.concat(value));
+// let name = "deepak"
+// console.log((name.toUpperCase()).toLowerCase())
+// let value = "deepak rajesh" 
+// console.log(value)
+// console.log(name.slice(0,5));
+// console.log(name.concat(value));
+
+/*
+practice qn
+prompt user to enter their full name.Generate a username for them based
+on input. Start username with @ followed by their full name and ending
+with the fullname length
+ */
+
+let fullName = prompt("Enter the full name");
+nameLength = fullName.length
+userName = `@${fullName}${nameLength}`
+console.log(userName)
