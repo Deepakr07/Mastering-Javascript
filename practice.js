@@ -94,3 +94,10 @@
 let str1 = "Deepak r"
 len = str1.length;
 console.log(len)
+
+//template literals
+const obj = {
+    item : "pen",
+    price : 50
+}
+console.log(`The cost of ${obj.item} is ${obj.price} rupees`);
