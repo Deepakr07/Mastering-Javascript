@@ -163,3 +163,11 @@ arr.pop()
 console.log(arr)
 arr.unshift(0)
 console.log(arr)
+
+//arrow functions
+
+let sum = ( a,b) =>{
+    return a+b
+}
+
+console.log(sum(5,8));
