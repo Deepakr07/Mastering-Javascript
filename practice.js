@@ -145,3 +145,21 @@ for(let i in items){
 console.log("Final price of items after applying discount is ");
 for(let i of items)
 console.log(i);
+
+/*
+push() - to add an item to the end of an array
+pop() - to remove an item from the end of an array
+unshift() - to add an item to the start of an array
+shift() - to remove an item from the start of an array
+splice() - to change the contents of an array by removing or 
+            replacing the items in the array
+*/
+
+const arr = [1,2,3,4,5]
+arr.push(5)
+console.log("After pushing an element the array is ")
+console.log(arr)
+arr.pop()
+console.log(arr)
+arr.unshift(0)
+console.log(arr)
