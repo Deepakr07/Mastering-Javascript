@@ -177,3 +177,7 @@ console.log(sum(5,8));
 
 const letters = new Set(['a','b','c']);
 console.log(letters);
+
+letters.add('d');
+letters.delete('c');
+console.log(letters);
