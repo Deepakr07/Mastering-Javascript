@@ -171,3 +171,9 @@ let sum = ( a,b) =>{
 }
 
 console.log(sum(5,8));
+
+//js sets
+//use new Set() to create a set
+
+const letters = new Set(['a','b','c']);
+console.log(letters);
