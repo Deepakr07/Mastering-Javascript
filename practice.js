@@ -181,3 +181,8 @@ console.log(letters);
 letters.add('d');
 letters.delete('c');
 console.log(letters);
+
+//js map function
+const array = [4,9,25,36];
+const sqRt = array.map(Math.sqrt)
+console.log(sqRt);
