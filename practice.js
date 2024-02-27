@@ -183,6 +183,9 @@ letters.delete('c');
 console.log(letters);
 
 //js map function
+//creates a new aray by calling a function on each element of the array
+//it doesnot change the original array
+//doesnot execute on empty array
 const array = [4,9,25,36];
 const sqRt = array.map(Math.sqrt)
 console.log(sqRt);
