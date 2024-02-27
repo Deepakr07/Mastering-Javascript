@@ -189,3 +189,7 @@ console.log(letters);
 const array = [4,9,25,36];
 const sqRt = array.map(Math.sqrt)
 console.log(sqRt);
+let array2 = array.map(function (element){
+    return element*5
+});
+console.log(array2);
