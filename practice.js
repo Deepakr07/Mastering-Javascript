@@ -193,3 +193,13 @@ let array2 = array.map(function (element){
     return element*5
 });
 console.log(array2);
+
+//javascript optional chaining
+ 
+const user = {
+    dog: {
+      name: "Snoopy"
+    }
+  };
+ console.log(user.dog?.name);
+ console.log(user.cat?.name);//this value is undefined 
