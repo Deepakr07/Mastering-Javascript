@@ -194,6 +194,15 @@ let array2 = array.map(function (element){
 });
 console.log(array2);
 
+//js reduce function
+let initial_val = 0
+let array1 = [1,2,3,5,4]
+let totSum = array1.reduce(function(accumulator,currentValue){
+    return accumulator+currentValue
+}) 
+console.log(array1)
+console.log(totSum);
+
 //javascript optional chaining
  
 const user = {
