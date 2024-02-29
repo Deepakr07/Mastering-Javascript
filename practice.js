@@ -203,6 +203,13 @@ let totSum = array1.reduce(function(accumulator,currentValue){
 console.log(array1)
 console.log(totSum);
 
+//js filter function
+let words = ["cat","elephant","monkey","donkey","hippo","lion"]
+let result = words.filter(function(word){
+    return word.length<4
+})
+console.log(result)
+
 //javascript optional chaining
  
 const user = {
